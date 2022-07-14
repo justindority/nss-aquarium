@@ -1,0 +1,80 @@
+.thoughts {
+    float: right;
+    background-color: white;
+    padding: 1em;
+    padding-top: .1em;
+    width: 20%;
+}
+
+body {
+    background-color: rgb(130, 208, 233);
+}
+
+img.detail {
+    height: 200px;
+
+}
+
+.logo {
+    height: 220px;
+    width: 220px;
+}
+
+.logo-div {
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    width: fit-content;
+    padding: .2em;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 5px;
+}
+
+.fish-article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.detail {
+    flex-direction: column;
+}
+
+.fish-div {
+    width: 78%;
+    /* background-color: green; */
+    text-align: left;
+}
+
+.quotes-article {
+    margin-top: .1em;
+}
+
+.locations-article {
+    margin-top: .1em;
+}
+
+.quotes-article {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.quote-box {
+    background-color: white;
+    width: fit-content;
+    padding: .2em;
+    padding-bottom: 0em;
+    margin: 5px;
+}
+
+.locations-article{
+    display: flex;
+    flex-wrap: wrap;
+}
